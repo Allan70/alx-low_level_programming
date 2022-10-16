@@ -30,6 +30,6 @@ int main(void)
 	{
 		newString = " and is less than 6 and not 0 ";
 	}
-	printf("Last digit of %d is %c", n newString);
+	printf("Last digit of %d is %s", n newString);
 	return (0);
 }
