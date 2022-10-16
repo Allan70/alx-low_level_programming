@@ -1,14 +1,19 @@
 #include <stdio.h>
+#include <unistd.h>
 
+/**
+ * main - entry point
+ * Description: Displays the lowercase alphabet\n
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char arr[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','l','o','p','q','r','s','t','u','v','w','x','y','z'};
-	int i = 0;
+	int character;
 
-	while(i < sizeof(arr))
+	for (character = 'a'; character <= 'z'; character++)
 	{
-		putchar(arr[i]);
-		i++;
+		putchar(character);
 	}
+	putchar('\n');
 	return (0);
 }
