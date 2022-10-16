@@ -15,12 +15,12 @@ int main(void)
 		putchar(number);
 		if (number != '9')
 		{
-
-			putchar(", ");
+			putchar(',');
+			putchar(' ');
 		}
 		else 
 		{
-			putchar("$");
+			putchar('$');
 		}
 	}
 	putchar('\n');
