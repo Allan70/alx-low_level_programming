@@ -29,6 +29,6 @@ int main(void)
 	{
 		newString =" and is less than 6 and not 0 ";
 	}
-	ptintf("Last digit of %d is %c", n , newString);
+	printf("Last digit of %d is %c", n , newString);
 	return (0);
 }
