@@ -26,10 +26,10 @@ int main(void)
 	{
 		newString = " and is 0 ";
 	}
-	else if(n < 6 && n != 0)
+	else if (n < 6 && n != 0)
 	{
-		newString =" and is less than 6 and not 0 ";
+		newString = " and is less than 6 and not 0 ";
 	}
-	printf("Last digit of %d is %c", n , newString);
+	printf("Last digit of %d is %c", n newString);
 	return (0);
 }
