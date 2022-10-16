@@ -16,7 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	char newString;
+	char newString[];
 	if(n > 5)
 	{
 		newString = " and is greater than 5 ";
