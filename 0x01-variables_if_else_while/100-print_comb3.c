@@ -13,7 +13,7 @@ int main(void)
 
 	for (number = '0'; number <= '9'; number++)
 	{
-		putchar(number)
+		putchar(number);
 		for (ourNumber = '0'; number <= '9'; number++)
 		{
 			if (number < ourNumber)
