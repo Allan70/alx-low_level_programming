@@ -13,15 +13,10 @@ int main(void)
 	int number3;
 
 	for (number1 = '0'; number1 < '8'; number1++)
-	{
 		for (number2 = '0'; number2 < '9'; number2++)
-		{
 			for (number3 = '0'; number3 <= '9'; number3++)
-			{
-				if (number1 < number2)
+				if (number1 < number2 && number2 < number3)
 				{
-					if (number2 < number3)
-					{
 						putchar(number1);
 						putchar(number2);
 						putchar(number3);
@@ -34,12 +29,6 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 						}
-					}
 				}
-			}
-		}
-	}
-
-
 	return (0);
 }
