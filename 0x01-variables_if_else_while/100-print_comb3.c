@@ -19,7 +19,11 @@ int main(void)
 			{
 			putchar(number);
 			putchar(ourNumber);
-				if (number != '8' && ourNumber != '9')
+				if (number == '8' && ourNumber == '9')
+				{
+					putchar('\n');
+				}
+				else
 				{
 					putchar(',');
 					putchar(' ');
