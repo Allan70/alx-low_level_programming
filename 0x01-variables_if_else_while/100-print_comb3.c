@@ -19,10 +19,13 @@ int main(void)
 			if (number < ourNumber)
 			{
 			putchar(ourNumber);
-			}
-
 			putchar(',');
 			putchar(' ');
+			}
+			else
+			{
+				break;
+			}
 		}
 	}
 	return (0);
