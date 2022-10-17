@@ -22,10 +22,6 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 			}
-			else
-			{
-				break;
-			}
 		}
 	}
 	return (0);
