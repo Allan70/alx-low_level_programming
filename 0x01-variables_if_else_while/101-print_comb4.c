@@ -16,7 +16,7 @@ int main(void)
 
 	for (number1 = '0'; number1 < '8'; number1++)
 		for (number2 = '0'; number2 < '9'; number2++)
-			while (number3 <= '9')
+			for (number3 = '0';number3 <= '9';number3++)
 			{
 				if (number1 < number2 && number2 < number3)
 				{
@@ -33,7 +33,6 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				number3++;
 			}
 	return (0);
 }
