@@ -6,8 +6,6 @@
  * Description: prints alphabet in lowercase and new line
  * Return: Always 0 (success)
  */
-char  letters[25] 
-
 void print_alphabet(void);
 
 int main(void)
