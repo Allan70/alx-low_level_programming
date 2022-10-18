@@ -6,7 +6,7 @@
  * Description: prints alphabet in lowercase and new line
  * Return: Always 0 (success)
  */
-char  letters[25] = "abcdefghijklmnopqrstuvwxyz";
+char  letters[25] 
 
 void print_alphabet(void);
 
@@ -20,9 +20,9 @@ void print_alphabet(void)
 {
 	int letter;
 
-	for (letter = 0; letter <= 25; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letters[letter]);
+		putchar(letter);
 	}
 	putchar('\n');
 }
