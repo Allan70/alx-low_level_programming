@@ -1,17 +1,14 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 
 /**
  * main - entry point
  * Description: prints alphabet in lowercase and new line
  * Return: Always 0 (success)
  */
-void print_alphabet(void);
-
 int main(void)
 {
 	print_alphabet();
-	return (0);
+	return(0)
 }
 
 void print_alphabet(void)
