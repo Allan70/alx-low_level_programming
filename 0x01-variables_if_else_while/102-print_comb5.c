@@ -21,6 +21,8 @@ int main(void)
 			{
 				for (number4 = '0'; number4 <= '9'; number4++)
 				{
+					if ((( number3 + number4) > (number1 + number2) && number3 >= number1)||number1 < number2)
+					{	
 					putchar(number1);
 					putchar(number2);
 					putchar(' ');
@@ -28,6 +30,11 @@ int main(void)
 					putchar(number4);
 					putchar(',');
 					putchar(' ');
+					if (number1 + number2 + number3 + number4 == 227 && number1 == 57)
+					{
+						break;
+					}
+				}
 				}
 			}
 		}
