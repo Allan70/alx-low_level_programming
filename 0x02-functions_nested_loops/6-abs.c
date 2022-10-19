@@ -2,7 +2,7 @@
 
 /**
  * _abs - entry point
- * @c: Takes an integer
+ * @i: Takes an integer
  * Description: absolute value of an integer
  * Return: returns absolute value
  */
