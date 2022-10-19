@@ -11,7 +11,7 @@ int _isalpha(int c)
 	int characterUppercase;
 	int characterLowercase;
 
-	for (characterUppercase = 'A'; characterUppercase <= 'Z'; character++)
+	for (characterUppercase = 'A'; characterUppercase <= 'Z'; characterUppercase++)
 	{
 		if (c == characterUppercase)
 		{
