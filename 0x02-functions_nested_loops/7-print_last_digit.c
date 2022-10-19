@@ -13,13 +13,13 @@ int print_last_digit(int i)
 	int counter;
 
 	lastd = i % 10;
-	for (counter = '0'; counter <= 9; counter++)
+	for (counter = 0; counter <= 9; counter++)
 	{
 		if (counter == lastd)
 		{
 			putchar(lastd);
+			return (putchar(lastd + ' '));
 		}
 	
 	}
-	return (putchar(lastd + ' '));
 }
