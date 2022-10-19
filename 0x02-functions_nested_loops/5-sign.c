@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign(int n) - entry point
+ * print_sign - entry point
  * Description: Prints the sign of a number
- * @c - The integer value it receives.
+ * @n - The integer value it receives.
  * Return: Returns 1 if greater than zero,0 if it is 0
  */
 int print_sign(int n)
