@@ -2,8 +2,8 @@
 
 /**
  * print_sign - entry point
+ * @n: The interger value to be computed
  * Description: Prints the sign of a number
- * @n - The integer value it receives.
  * Return: Returns 1 if greater than zero,0 if it is 0
  */
 int print_sign(int n)
