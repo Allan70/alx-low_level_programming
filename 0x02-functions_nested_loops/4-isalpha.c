@@ -8,19 +8,19 @@
  */
 int _isalpha(int c)
 {
-	int characterUppercase;
-	int characterLowercase;
+	int cUpper;
+	int cLower;
 
-	for (characterUppercase = 'A'; characterUppercase <= 'Z'; characterUppercase++)
+	for (cUpper = 'A'; cUpper <= 'Z'; cUpper++)
 	{
-		if (c == characterUppercase)
+		if (c == cUpper)
 		{
 			return (1);
 		}
 	}
-	for (characterLowercase = 'a'; characterLowercase <= 'z'; characterLowercase++)
+	for (cLower = 'a'; cLower <= 'z'; cLower++)
 	{
-		if (c == characterLowercase)
+		if (c == cLower)
 		{
 			return (1);
 		}
