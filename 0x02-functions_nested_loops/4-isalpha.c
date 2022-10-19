@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha: entry point
- * Description: checks for alphabetic character
- * @c: The character value it receives
+ * _isalpha - entry point
+ * @c: The interger value it receives
+ * Description: checks for alphabet
  * Return: 1 if true 0 if false
  */
 int _isalpha(int c)
