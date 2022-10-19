@@ -6,7 +6,7 @@
  * Description: absolute value of an integer
  * Return: returns absolute value
  */
-int _abs(int)
+int _abs(int i)
 {
-	return (0);
+	return (abs(i));
 }
