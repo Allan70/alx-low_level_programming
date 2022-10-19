@@ -3,6 +3,7 @@
 /**
  * _islower - Entry point
  * Description: Checks for lowercase characters
+ * @c: the integer value it receives
  * Return: Always 0 (success)
  */
 int _islower(int c)
