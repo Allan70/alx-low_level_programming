@@ -9,15 +9,13 @@
 int print_last_digit(int i)
 {
 	int lastd;
-	int counter;
 
 	lastd = i % 10;
-	for (counter = 0; counter <= 9; counter++)
+	if (counter == lastd)
 	{
-		if (counter == lastd)
-		{
-			_putchar(lastd);
-			return (_putchar(lastd));
-		}	
-	}
+		_putchar(lastd);
+		return (_putchar(lastd));
+	}	
+	_putchar(lastd + '0');
+	return (lastd);	
 }
