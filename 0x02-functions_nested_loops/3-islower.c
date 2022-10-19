@@ -7,12 +7,13 @@
  */
 int _islower(int c)
 {
-	if (islower(_putchar(c)))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	if (sizeof(c) == 1 || sizeof(c) !=  0 )
+		if (islower(_putchar(c)))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 }
