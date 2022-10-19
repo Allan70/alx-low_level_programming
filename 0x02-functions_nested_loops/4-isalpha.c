@@ -22,7 +22,7 @@ int _isalpha(int c)
 	{
 		if (c == characterLowercase)
 		{
-			return (1)
+			return (1);
 		}
 	}
 	return (0);
