@@ -7,8 +7,7 @@
  */
 int _islower(int c)
 {
-	if (sizeof(c) == 1 || sizeof(c) !=  0 )
-		if (islower(_putchar(c)))
+	if ( c > 'a' && c < '2' )
 		{
 			return (1);
 		}
