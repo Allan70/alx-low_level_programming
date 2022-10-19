@@ -17,7 +17,7 @@ int print_last_digit(int i)
 		if (counter == lastd)
 		{
 			_putchar(lastd);
-			return (_putchar(lastd + ' '));
+			return (_putchar(lastd));
 		}	
 	}
 }
