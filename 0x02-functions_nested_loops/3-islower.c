@@ -7,7 +7,11 @@
  */
 int _islower(int c)
 {
-	if ( c > 'a' && c < '2' )
+	int character;
+
+	for (character = 'a'; character <= 'z'; character++)
+	{
+		if (c == character)
 		{
 			return (1);
 		}
@@ -15,4 +19,5 @@ int _islower(int c)
 		{
 			return (0);
 		}
+	}
 }
