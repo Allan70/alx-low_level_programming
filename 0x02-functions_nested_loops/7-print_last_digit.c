@@ -10,8 +10,15 @@
 int print_last_digit(int i)
 {
 	int lastd;
+	int counter;
 
 	lastd = i % 10;
-	_putchar(lastd);
-	return (lastd);
+	for (counter = '0'; counter <= 9; counter++)
+	{
+		if (counter == lastd)
+		{
+			putchar(lastd);
+	
+	}
+	return (putchar(lastd + ' '));
 }
