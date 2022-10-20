@@ -12,7 +12,18 @@ void print_to_98(int n)
 
 	while (count < 99)
 	{
-		printf("%i, ",count);
+		if (count == 98)
+		{
+			printf("%i", count);
+		}
+		else if (count > 98 || count < 0)
+		{
+			break;
+		}
+		else
+		{
+			printf("%i, ",count);
+		}
 
 		count++;
 	}
