@@ -23,8 +23,8 @@ void times_table(void)
 
 			if (inner_count != 9)
 			{
-				_putchar(',');
-				_putchar(' ');
+				printf(",");
+				printf(" ");
 			}
 
 			inner_count++;
