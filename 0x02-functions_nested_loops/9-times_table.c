@@ -21,7 +21,7 @@ void times_table(void)
 
 			number = number * inner_count;
 
-			if (number < 9)
+			if (number <= 9)
 			{
 				printf(" %i", number);
 			}
