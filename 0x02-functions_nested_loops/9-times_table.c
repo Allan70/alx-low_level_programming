@@ -25,7 +25,7 @@ void times_table(void)
 			{
 				printf(" %i", number);
 			}
-			else if (number == 0 && inner_count == 0)
+			else if (inner_count == 0)
 			{
 				printf("%i", number);
 			}	
