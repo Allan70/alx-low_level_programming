@@ -19,7 +19,6 @@ void jack_bauer(void)
 				{
 					if (h_ones >= '4' && h_tens == '2')
 					{
-
 						break;
 					}
 					else if (h_tens <= '2')
@@ -31,6 +30,5 @@ void jack_bauer(void)
 						_putchar(m_ones);
 						_putchar('\n');
 					}
-					
 				}
 }
