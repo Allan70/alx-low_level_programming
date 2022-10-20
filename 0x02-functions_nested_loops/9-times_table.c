@@ -19,7 +19,7 @@ void times_table(void)
 		{
 			number = number * inner_count;
 			
-			_putchar(' ' + number);
+			printf("%i",number);
 
 			if (inner_count != 9)
 			{
