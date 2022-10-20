@@ -9,6 +9,7 @@ void times_table(void)
 	int number;
 	int counter;
 	int inner_count;
+	char op;
 
 	for (counter = 0; counter <= 9; counter++)
 	{
@@ -18,7 +19,9 @@ void times_table(void)
 		while (inner_count <= 9)
 		{
 			number = number * inner_count;
-			char op = number;
+			
+			op = number;
+
 			_putchar(op);
 
 			if (inner_count != 9)
