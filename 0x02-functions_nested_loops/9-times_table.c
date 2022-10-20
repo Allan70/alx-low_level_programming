@@ -12,15 +12,15 @@ void times_table(void)
 
 	for (counter = '0'; counter <= '9'; counter++)
 	{
-		inner_count = 0;
+		inner_count = '0';
 		number = counter;
 
-		while (inner_count <= 9)
+		while (inner_count <= '9')
 		{
 			number = number * inner_count;
 			_putchar(number);
 
-			if (inner_count != 9)
+			if (inner_count != '9')
 			{
 				_putchar(',');
 				_putchar(' ');
