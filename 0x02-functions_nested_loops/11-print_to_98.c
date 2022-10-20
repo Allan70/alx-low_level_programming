@@ -14,11 +14,38 @@ void print_to_98(int n)
 	{
 		if (count == 98)
 		{
-			printf("%i", count);
+			printf("%i ", count);
 		}
 		else if (count > 98 || count < 0)
 		{
-			break;
+			while (count > 97)
+			{
+				if (count == 98)
+				{
+					printf("%i ", count);
+				}
+				else
+				{
+					printf("%i, "count);
+				}
+				
+				count--;
+			}
+
+			while (count < 99)
+			{
+				if (count == 98)
+				{
+					printf("%i ", count);
+				}
+				else
+				{
+					printf("%i, ", count);
+				}
+
+				count++
+			}
+				
 		}
 		else
 		{
