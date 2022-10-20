@@ -21,17 +21,13 @@ void times_table(void)
 
 			number = number * inner_count;
 
-			if (number <= 9)
+			if (number <= 9 && inner_count > 0)
 			{
 				printf(" %i", number);
 			}
-			else if (inner_count == 0)
-			{
-				printf("%i", number);
-			}	
 			else
 			{
-				printf("%i",number);
+				printf("%i", number);
 			}
 
 			if (inner_count != 9)
