@@ -13,10 +13,12 @@ void times_table(void)
 	for (counter = 0; counter <= 9; counter++)
 	{
 		inner_count = 0;
-		number = counter;
+		number = 0;
 
 		while (inner_count <= 9)
 		{
+			number = counter;
+
 			number = number * inner_count;
 			
 			printf("%i",number);
@@ -29,6 +31,6 @@ void times_table(void)
 
 			inner_count++;
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
