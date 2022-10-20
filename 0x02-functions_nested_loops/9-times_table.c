@@ -9,7 +9,6 @@ void times_table(void)
 	int number;
 	int counter;
 	int inner_count;
-	int ourDigits;
 
 	for (counter = 0; counter <= 9; counter++)
 	{
@@ -22,15 +21,13 @@ void times_table(void)
 
 			number = number * inner_count;
 
-			ourDigits = floor(log10(abs(number))) + 1;
-
-			if (ourDigits < 2)
-			{					
-				printf(" %i",number);
+			if (number < 9)
+			{
+				printf(" %i", number);
 			}
 			else
 			{
-				printf("%i", number);
+				printf("%i",number);
 			}
 
 			if (inner_count != 9)
