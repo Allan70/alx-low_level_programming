@@ -17,11 +17,11 @@ void jack_bauer(void)
 			for (m_tens = '0'; m_tens < '6'; m_tens++)
 				for (m_ones = '0'; m_ones <= '9'; m_ones++)
 				{
-					if (h_ones < '4' && h_tens <= '2')
+					if (h_ones == '4' && h_tens <= '2')
 					{
 						break;
 					}
-					else
+					else if(h_tens <= '2' && h_ones < '4')
 					{
 						_putchar(h_tens);
 						_putchar(h_ones);
