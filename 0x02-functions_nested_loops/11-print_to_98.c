@@ -26,7 +26,7 @@ void print_to_98(int n)
 				}
 				else
 				{
-					printf("%i, "count);
+					printf("%i, ", count);
 				}
 				
 				count--;
@@ -49,7 +49,7 @@ void print_to_98(int n)
 		}
 		else
 		{
-			printf("%i, ",count);
+			printf("%i, ", count);
 		}
 
 		count++;
