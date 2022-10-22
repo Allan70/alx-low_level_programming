@@ -29,9 +29,9 @@ int main(void)
 		}
 		else
 		{
-			printf("%i ", looper);
+			printf("%i", looper);
 		}
-
+		printf(" ");
 	}
 
 	printf('\n');
