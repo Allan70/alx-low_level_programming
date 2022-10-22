@@ -2,10 +2,7 @@
 
 /**
  * main - entry point
- * Description: Prints 1-100 with a new line \n
- * Multiples of three prints 'Fizz' instead of number.
- * Multiples of five prints 'Buzz' instead of number.
- * For multiples of both it prints FizzBuzz.
+ * Description: Prints 1-100 with a new line.
  * Return: Always 0 (success)
  */
 
