@@ -8,7 +8,7 @@
  * Multiples of five prints 'Buzz' instead of number.
  * For multiples of both it prints FizzBuzz.
  */
-int main()
+int main(void)
 {
 	int looper;
 
