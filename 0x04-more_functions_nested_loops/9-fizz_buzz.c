@@ -28,11 +28,11 @@ int main(void)
 		}
 		else
 		{
-			printf("%i", looper);
+			printf("%i ", looper);
 		}
 
-		printf(" ");
 	}
+	print('\n');
 	return (0);
 }
 
