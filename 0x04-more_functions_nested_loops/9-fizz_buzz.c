@@ -14,7 +14,6 @@ int main(void)
 
 	for (looper = 1; looper <= 100; looper++)
 	{
-				
 		if (looper % 3 == 0)
 		{
 			printf("Fizz");
