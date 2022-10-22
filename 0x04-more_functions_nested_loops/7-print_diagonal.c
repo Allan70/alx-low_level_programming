@@ -11,13 +11,13 @@ void print_diagonal(int n)
 	int spacer;
 	int breaker;
 
-	for (spacer = 0; spacer < n; spacer++)
-	{
 		if (n <= 0)
 		{
 			_putchar('\n');
 		}
 		else if (n > 0)
+		{
+		for (spacer = 0; spacer < n; spacer++)
 		{
 			for (breaker = 0; breaker <= spacer; breaker++)
 			{
@@ -30,5 +30,5 @@ void print_diagonal(int n)
 			_putchar('\n');
 			}
 		}
-	}
+		}
 }
