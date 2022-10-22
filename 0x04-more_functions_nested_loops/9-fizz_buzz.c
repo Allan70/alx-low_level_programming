@@ -7,8 +7,9 @@
  * Multiples of three prints 'Fizz' instead of number.
  * Multiples of five prints 'Buzz' instead of number.
  * For multiples of both it prints FizzBuzz.
+ * Return: Always 0 (success)
  */
-void main(void)
+int main(void)
 {
 	int looper;
 
@@ -34,6 +35,6 @@ void main(void)
 	}
 
 	printf("\n");
-
+	return (0);
 }
 
