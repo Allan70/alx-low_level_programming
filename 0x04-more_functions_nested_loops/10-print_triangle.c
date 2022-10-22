@@ -24,15 +24,15 @@ void print_triangle(int size)
 
 		while (blocks <= size)
 		{
-			_putchar(" ");
+			_putchar(' ');
 			blocks++;
 		}
 
 		for (spacer = 0; spacer < pyramid; spacer++)
 		{
-			_putchar("#");
+			_putchar('#');
 		}
-		_putchar("\n");
+		_putchar('\n');
 	}
 	}
 }
