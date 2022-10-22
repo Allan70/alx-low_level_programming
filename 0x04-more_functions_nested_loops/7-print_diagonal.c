@@ -9,6 +9,7 @@
 void print_diagonal(int n)
 {
 	int spacer;
+	int breaker;
 	
 	for (spacer = 0; spacer <= n; spacer++)
 	{
@@ -18,13 +19,16 @@ void print_diagonal(int n)
 		}
 		else if (n > 0)
 		{
-			while (spacer > 0)
+			for (breaker = 0; breaker <= spacer; breaker++)
+			{
+			while (breaker <= spacer)
 			{
 				_putchar(' ');
-				spacer--;
+				breaker++;
 			}
 			_putchar('\\');
 			_putchar('\n');
+			}
 		}
 	}
 }	
