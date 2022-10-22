@@ -12,7 +12,7 @@ int main(void)
 
 	while (looper <= 100)
 	{
-		if(looper % 3 == 0&& looper % 5 == 0)
+		if (looper % 3 == 0 && looper % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
