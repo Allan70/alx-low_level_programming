@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -29,7 +30,7 @@ int main(void)
 			printf("%i", looper);
 		}
 
-		if (looper != 100)
+		if (looper < 100)
 		{
 		printf(" ");
 		}
