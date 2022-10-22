@@ -3,7 +3,7 @@
 
 /**
  * main - entry point
- * Return: void
+ * Return: 0 (sucess)
  */
 
 int main(void)
@@ -30,11 +30,11 @@ int main(void)
 		}
 		if (looper != 100)
 		{
-			_putchar(' ');
+			printf(" ");
 		}
 
 		looper++;
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
