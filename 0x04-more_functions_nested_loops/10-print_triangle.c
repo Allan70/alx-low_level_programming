@@ -16,7 +16,7 @@ void print_triangle(int size)
 	{
 		_putchar('\n');
 	}
-	else
+	else if (size > 0)
 	{
 	for (pyramid = 0; pyramid < size; pyramid++)
 	{
