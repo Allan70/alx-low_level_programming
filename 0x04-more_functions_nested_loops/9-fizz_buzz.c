@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,6 +8,7 @@
  * For multiples of both it prints FizzBuzz.
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int looper;
@@ -35,6 +35,7 @@ int main(void)
 	}
 
 	printf("\n");
+	
 	return (0);
 }
 
