@@ -12,20 +12,27 @@ void print_triangle(int size)
 	int blocks;
 	int spacer;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
 	for (pyramid = 0; pyramid < size; pyramid++)
 	{
 		blocks = spacer;
 
 		while (blocks <= size)
 		{
-			printf(" ");
+			_putchar(" ");
 			blocks++;
 		}
 
 		for (spacer = 0; spacer < pyramid; spacer++)
 		{
-			printf("#");
+			_putchar("#");
 		}
-		printf("\n");
+		_putchar("\n");
+	}
 	}
 }
