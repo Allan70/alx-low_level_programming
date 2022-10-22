@@ -7,34 +7,33 @@
  * Multiples of three prints 'Fizz' instead of number.
  * Multiples of five prints 'Buzz' instead of number.
  * For multiples of both it prints FizzBuzz.
- * Return: Always 0 (success)
  */
-int main(void)
+void main(void)
 {
 	int looper;
 
-	for (looper = 1; looper <= 100; looper++)
+	for (looper = 0; looper <= 100; looper++)
 	{
 		if (looper % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (looper % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if  (looper % 3 == 0 && looper % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else
 		{
-			printf("%i ", looper);
+			printf("%i", looper);
 		}
+		printf(" ");
 	}
 
 	printf('\n');
 
-	return (0);
 }
 
