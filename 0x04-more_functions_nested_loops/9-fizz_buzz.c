@@ -1,41 +1,47 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - entry point
- * Description: Prints 1-100 with a new line.
- * Return: Always 0 (success)
+ * Return: void
  */
 
 int main(void)
 {
-	int looper;
+	int maximum;
+	int minimum;
 
-	for (looper = 1; looper <= 100; looper++)
+	maximum = 100;
+	minimum = 1;
+
+	while (minimum <= maximum)
 	{
-		if (looper % 3 == 0)
+		if (minimum % 3 == 0 && minimum % 5 == 0)
 		{
-			printf("Fizz");
+			printf("FizzBuzz ");
 		}
-		else if (looper % 5 == 0)
+		else if (minimum % 3 == 0)
 		{
-			printf("Buzz");
+			printf("Fizz ");
 		}
-		else if  (looper % 3 == 0 && looper % 5 == 0)
+		else if (minimum  % 5 == 0)
 		{
-			printf("FizzBuzz");
-		}
-		else if (looper % 3 != 0 && looper % 5 != 0)
-		{
-			printf("%i", looper);
-		}
+			if (minimum < maximum)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("%i ", minimum);
+			}
 
-		if (looper < 100)
-		{
-		printf(" ");
+			minimum++;
 		}
 	}
-
-	printf("\n");
-	return (0);
+		
+		printf("\n");
+		return (0);
 }
