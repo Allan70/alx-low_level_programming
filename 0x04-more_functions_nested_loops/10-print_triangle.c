@@ -11,7 +11,7 @@ void print_triangle(int size)
 	int pyramid;
 	int blocks;
 	int spacer;
-	
+
 	if (size <= 0)
 	{
 		_putchar('\n');
