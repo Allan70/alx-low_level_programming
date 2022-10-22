@@ -18,7 +18,7 @@ void print_triangle(int size)
 	}
 	else if (size > 0)
 	{
-	for (pyramid = 0; pyramid < size; pyramid++)
+		for (pyramid = 0; pyramid <= size; pyramid++)
 	{
 		blocks = spacer;
 
