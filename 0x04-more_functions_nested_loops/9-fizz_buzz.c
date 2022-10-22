@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -7,41 +8,33 @@
 
 int main(void)
 {
-	int maximum;
-	int minimum;
+	int looper = 1;
 
-	maximum = 100;
-	minimum = 1;
-
-	while (minimum <= maximum)
+	while (looper <= 100)
 	{
-		if (minimum % 3 == 0 && minimum % 5 == 0)
+		if(looper % 3 == 0&& looper % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
-		else if (minimum % 3 == 0)
+		else if (looper % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
-		else if (minimum  % 5 == 0)
+		else if (looper % 5 == 0)
 		{
-			if (minimum < maximum)
-			{
-				printf("Buzz ");
-			}
-			else
-			{
-				printf("Buzz");
-			}
-			else
-			{
-				printf("%i ", minimum);
-			}
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%i", looper);
+		}
+		if (looper != 100)
+		{
+			_putchar(' ');
+		}
 
-			minimum++;
-		}
+		looper++;
 	}
-		
-		printf("\n");
-		return (0);
+	_putchar('\n');
+	return (0);
 }
