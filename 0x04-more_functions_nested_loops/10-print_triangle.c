@@ -9,12 +9,22 @@ void print_triangle(int size)
 {
 	int pyramid;
 	int blocks;
+	int spacer;
 
 	for (pyramid = 0; pyramid < size; pyramid++)
 	{
-		for (blocks = size; pyramid > 0; blocks--)
-		{
+		blocks = spacer;
 
+		while (blocks <= size)
+		{
+			printf(" ");
+			blocks++;
 		}
+
+		for (spacer = 0; spacer < pyramid; spacer++)
+		{
+			printf("#");
+		}
+		printf("\n");
 	}
 }
