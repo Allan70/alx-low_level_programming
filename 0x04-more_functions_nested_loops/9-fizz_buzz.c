@@ -31,7 +31,11 @@ int main(void)
 		{
 			printf("%i", looper);
 		}
+
+		if (looper < 100)
+		{
 		printf(" ");
+		}
 	}
 
 	printf("\n");
