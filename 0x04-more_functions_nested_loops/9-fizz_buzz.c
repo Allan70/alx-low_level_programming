@@ -12,7 +12,7 @@ void main(void)
 {
 	int looper;
 
-	for (looper = 0; looper <= 100; looper++)
+	for (looper = 1; looper <= 100; looper++)
 	{
 		if (looper % 3 == 0)
 		{
