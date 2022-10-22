@@ -25,7 +25,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else
+		else if (looper % 3 != 0 && looper % 5 != 0)
 		{
 			printf("%i", looper);
 		}
@@ -39,4 +39,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
