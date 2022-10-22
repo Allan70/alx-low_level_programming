@@ -10,31 +10,33 @@ void print_triangle(int size)
 {
 	int pyramid;
 	int blocks;
-
-	pyramid = 1;
-
-	while (pyramid <= size && size > 0)
-	{
-		blocks = 0;
-		while (blocks < size - 1)
-		{
-			_putchar(' ');
-			blocks++;
-		}
-		blocks = 0;
-		while (blocks < pyramid)
-		{
-			_putchar('#');
-			blocks++;
-		}
-
-		_putchar('\n');
-		pyramid++;
-	}
-
-	if (pyramid == 1)
-	{
-		_putchar('\n');
-	}
+	int spacer;
 	
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+	else if (size > 0)
+	{
+		for (pyramid = 1; pyramid < size; pyramid++)
+		{
+			blocks = spacer;
+
+			while (blocks < size - 1)
+			{
+				_putchar(' ');
+				blocks++;
+			}
+
+			for (spacer = 0; spacer < pyramid; spacer++)
+			{
+				_putchar('#');
+			}
+
+			if (pyramid < size && pyramid >= 0)
+			{
+				_putchar('\n');
+			}
+		}
+	}
 }
