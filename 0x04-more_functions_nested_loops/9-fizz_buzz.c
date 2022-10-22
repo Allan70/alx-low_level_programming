@@ -17,21 +17,20 @@ int main(void)
 	{
 		if (looper % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if (looper % 5 == 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else if  (looper % 3 == 0 && looper % 5 == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else
 		{
-			printf("%i", looper);
+			printf("%i ", looper);
 		}
-		printf(" ");
 	}
 
 	printf('\n');
