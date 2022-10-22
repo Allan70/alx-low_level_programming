@@ -32,7 +32,11 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
-		_putchar('\n');
+
+		if (pyramid < size)
+		{
+			_putchar('\n');
+		}
 	}
 	}
 }
