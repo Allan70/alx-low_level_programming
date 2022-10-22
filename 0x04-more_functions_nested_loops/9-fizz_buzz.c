@@ -7,6 +7,7 @@
  * Multiples of three prints 'Fizz' instead of number.
  * Multiples of five prints 'Buzz' instead of number.
  * For multiples of both it prints FizzBuzz.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -32,7 +33,9 @@ int main(void)
 		}
 
 	}
+
 	printf('\n');
+
 	return (0);
 }
 
