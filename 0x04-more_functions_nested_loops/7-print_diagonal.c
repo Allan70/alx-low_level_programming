@@ -10,7 +10,7 @@ void print_diagonal(int n)
 {
 	int spacer;
 	int breaker;
-	
+
 	for (spacer = 0; spacer <= n; spacer++)
 	{
 		if (n == 0)
@@ -31,4 +31,4 @@ void print_diagonal(int n)
 			}
 		}
 	}
-}	
+}
