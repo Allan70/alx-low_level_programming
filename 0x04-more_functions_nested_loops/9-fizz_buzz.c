@@ -28,11 +28,7 @@ int main(void)
 		{
 			printf("%i", looper);
 		}
-
-		if (looper < 100 && looper >= 1)
-		{
 		printf(" ");
-		}
 	}
 
 	printf("\n");
