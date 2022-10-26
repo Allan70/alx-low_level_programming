@@ -7,8 +7,14 @@
  *i Description: Resturs the string length
  * Return: Returns the string length
  */
-int _strlen(char *s[])
+int _strlen(char* s)
 {
-	int stringLength = strlen(s);
-	return (stringLength);
+	int sLong = 0;
+
+	for(stringLength = 0; s[stringLength] != '\0'; stringLength++)
+	{
+		sLong++;
+	}
+
+	return sLong;
 }
