@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts - entry point
+ * _puts - entry point
  * @str: Accepts an array of strings
  * Description: Prints a string
  */
