@@ -1,13 +1,13 @@
 #include "main.h"
 
-/** 
+/**
  * print_rev - entry point
  * @s: character value to be worked on
  * Description: Prints a string in reverse
  */
 void print_rev(char *s)
 {
-	char holder[];
+	char holder;
 	char counter;
 
 	for (counter = 0; s[counter] != '\0'; counter++)
