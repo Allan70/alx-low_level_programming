@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_buffer - Prints a buffer 10 bytes at a time, starting with the byte position, then showing the hex content, then displaying printable characters.
+ * print_buffer - Prints a buffer 10 bytes at a time.
  * @b: The buffer to print
  * @size: The number of bytes to be printe
  */
@@ -37,5 +37,5 @@ void print_buffer(char *b, int size)
 		printf("\n");
 	}
 	if (size <= 0)
-		printf("\n");
+		print("\n");
 }
