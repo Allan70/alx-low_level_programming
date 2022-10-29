@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatinates two strings
+ * *_strcat - concatinates two strings
  * @dest: string to be concatinated to
  * @str: string to concatinate
  * Description: A function that concatinates two strings.
@@ -9,5 +9,17 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	return ();
+	int holder = 0;
+	int length = 0;
+
+	while (dest[holder++])
+	{
+		length++;
+	}
+	while (src[holder++])
+	{
+		dest[length++] = src[index];
+	}
+
+	return (dest);
 }
