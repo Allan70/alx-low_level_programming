@@ -17,11 +17,11 @@ char *_strcat(char *dest, char *src)
 		length++;
 	}
 
-	holder--;
-
-	while (src[holder++])
+	holder = 0;
+	while (src[holder])
 	{
-		dest[length++] = src[index];
+		dest[length++] = src[holder];
+		holder++;
 	}
 
 	return (dest);
