@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	indexer = 0;
 
-	while (src[indexer++] && indexer < n)
+	while (src[indexer] && indexer < n)
 	{
 		dest[indexer] = src[indexer];
 		indexer++;
@@ -30,7 +30,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	indexer = src_length;
 
-	while( src[indexer] && indexer < n)
+	while (indexer < n)
 	{
 		dest[indexer] = '\0';
 		indexer++;
