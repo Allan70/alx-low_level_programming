@@ -15,7 +15,7 @@ void reverse_array(int *a, int n)
 	{
 		tempo = a[n - 1 - indexer];
 		a[n - 1 - indexer] = a[indexer];
-		a[indexer] = tmp
+		a[indexer] = tempo;
 		indexer--;
 	}
 }
