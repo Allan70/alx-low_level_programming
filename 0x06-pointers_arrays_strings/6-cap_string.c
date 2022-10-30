@@ -9,14 +9,31 @@ char *cap_string(char *str)
 {
 	int indexer;
 
-	indexeer = 0;
+	indexer = 0;
 
 	while (str[indexer])
 	{
 		while (!(str[indexer] >= 'a' && str[indexer] <= 'z'))
-			index++;
+			indexer++;
 
-		if (str[index -1] == ' ' ||
-		    str[index - 1] ==
+		if (str[indexer - 1] == ' ' ||
+		    str[indexer - 1] == '\t' ||
+		    str[indexer - 1] == '\n' ||
+		    str[indexer - 1] == ',' ||
+		    str[indexer - 1] == ';' ||
+		    str[indexer - 1] == '.' ||
+		    str[indexer - 1] == '!' ||
+		    str[indexer - 1] == '?' ||
+		    str[indexer - 1] == '"' ||
+		    str[indexer - 1] == '(' ||
+		    str[indexer - 1] == ')' ||
+		    str[indexer - 1] == '{' ||
+		    str[indexer - 1] == '}' ||
+		    indexer == 0)
+			str[indexer] -= 32;
+
+		indexer++;
 	}
+
+	return (str);
 }
