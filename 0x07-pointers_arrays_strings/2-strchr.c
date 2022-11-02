@@ -2,8 +2,8 @@
 
 /**
  * _strchr - locates a character in a string
- * @s - string to be searched
- * @c - first ocurance of the character
+ * @s: string to be searched
+ * @c: first ocurance of the character
  *
  * Return: returns pointer s and NULL if c is not
  */
@@ -20,5 +20,4 @@ char *_strchr(char *s, char c)
 	}
 
 	return ('\0');
-
 }
