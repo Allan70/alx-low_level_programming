@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strstr - locates a  substring
+ * *_strstr - locates a  substring
  * @haystack: string to be searched
  * @needle: string occurence to search for
- * Returns: pointer at the beginning of the string or NULL
+ * Return: pointer at the beginning of the string or NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
