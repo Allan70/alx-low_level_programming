@@ -35,7 +35,7 @@ int is_prime_number(int n)
  */
 int divisible(int n, int d)
 {
-	if  (i % d == 0)
+	if  (n % d == 0)
 	{
 		return (0);
 	}
