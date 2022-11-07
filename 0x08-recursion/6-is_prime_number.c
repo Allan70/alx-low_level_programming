@@ -6,7 +6,7 @@ int is_prime_number(int n);
 /**
  * is_prime_number - function hat returns 1 for prime number
  * @n: integer to check for prime number
- * Return: 0 or 1 if prime and not prime 
+ * Return: 0 or 1 if prime and not prime
  */
 int is_prime_number(int n)
 {
@@ -31,11 +31,11 @@ int is_prime_number(int n)
  * @d: divisors
  *
  * Return: Number is divisible will be 0
- * 	   Number not divisible will be 1
+ * Number not divisible will be 1
  */
 int divisible(int n, int d)
 {
-	if (n % d == 0)
+	if  (i % d == 0)
 	{
 		return (0);
 	}
