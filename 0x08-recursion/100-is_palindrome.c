@@ -24,7 +24,7 @@ int  strlen_check(char *s)
 }
 
 /**
- * check_palindrome - Checks if a string is a palindrome
+ * checking_palindrome - Checks if a string is a palindrome
  * @s: The string to be checked
  * @l: s length
  * @i: index of the string to be checked
@@ -33,7 +33,7 @@ int  strlen_check(char *s)
  */
 int checking_palindrome(char *s, int l, int i)
 {
-	if (s[i] == s[l /2])
+	if (s[i] == s[l / 2])
 	{
 		return (1);
 	}
