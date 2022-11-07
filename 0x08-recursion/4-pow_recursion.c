@@ -10,7 +10,6 @@ int _pow_recursion(int x, int y)
 {
 	int answer = x;
 
-		
 	if (y == 0)
 	{
 		return (1);
