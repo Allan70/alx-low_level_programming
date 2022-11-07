@@ -3,6 +3,7 @@
 
 /**
  * _strlen_recursion - returns string length
+ * @s: the string to be counted
  * Return: String length
  */
 int _strlen_recursion(char *s)
@@ -14,6 +15,5 @@ int _strlen_recursion(char *s)
 		length++;
 		length += _strlen_recursion(s + 1);
 	}
-	
 	return (length);
 }
