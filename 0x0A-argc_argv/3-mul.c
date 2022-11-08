@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int k,j;
+	int k, j;
 
 	if (argc == 1 || argc == 2)
 	{
