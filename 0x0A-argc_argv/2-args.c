@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints arguments it receives
@@ -8,12 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 1;
-
-	if (argc < 2)
-	{
-		return (1);
-	}
+	int i = 0;
 
 	while (i  < argc)
 	{
