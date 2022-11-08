@@ -11,23 +11,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int k, j;
+	(void) argc;
 
-	if (argc == 1 || argc == 2)
+	if (argc == 3)
+	{
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (0);
+	}
+	else 
 	{
 		printf("Error\n");
-		return (1);
-	}
-	else
-	{
-		j = 1;
-
-		for (k = 1; k < 3; k++)
-		{
-			j *= atoi(argv[k]);
-		}
-
-		printf("%d\n", j);
 	}
 
 	return (1);
