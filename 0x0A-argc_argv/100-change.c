@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			if (t >= cent[i])
 			{
 				c += t / cent[i];
-			       t = t % cent[i];	
+				t = t % cent[i];
 			}
 
 			i++;
