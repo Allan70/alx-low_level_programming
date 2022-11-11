@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	counter = 0;
-	while (s1[counter])
+	while (s1[counter] || s2[counter])
 	{
 		j++;
 		counter++;
