@@ -12,13 +12,13 @@ int get_string_length(char *s)
 
 	for (index = 0; s[index] != '\0'; index++)
 		;
-	return index;
+	return (index);
 }
 
 /**
  * string_nconcat - concatinate 2 strings, with n bytes
  * @s1: first string
- * @s2: Second string 
+ * @s2: Second string
  * @n: bytes to be included
  * Return: pointer (on success) NULL (failiure)
  */
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	}
 
-	if ( s2 == NULL)
+	if (s2 == NULL)
 	{
 		s2 = "";
 	}
