@@ -27,7 +27,7 @@ int *array_range(int min, int max)
 	}
 
 	index = 0;
-	while (min <= max)
+	while (index <= length)
 	{
 		pointer[index] = min++;
 	}
