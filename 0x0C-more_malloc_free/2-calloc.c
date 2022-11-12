@@ -31,7 +31,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (index = 0; index < (size * nmemb); index++)
 	{
-		filler[index] = '\0';
+		bucket[index] = '\0';
 	}
 	return (memory);
 }
